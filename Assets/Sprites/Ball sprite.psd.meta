@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 2214416f56b5a4297a37f121c20bc6bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8616351797067845918
+    second: Ball sprite_0
+  - first:
+      213: 1947278750894264319
+    second: Ball sprite_1
+  - first:
+      213: -6740279952992782682
+    second: Ball sprite_2
+  - first:
+      213: 6442619602600328663
+    second: Ball sprite_3
+  - first:
+      213: 7425589639870263824
+    second: Ball sprite_4
+  - first:
+      213: -7331490112347831806
+    second: Ball sprite_5
+  - first:
+      213: 2692985898774259887
+    second: Ball sprite_6
+  - first:
+      213: 7584296989154735349
+    second: Ball sprite_7
+  - first:
+      213: 3278359844752952366
+    second: Ball sprite_8
+  - first:
+      213: -4302260969571746455
+    second: Ball sprite_9
+  - first:
+      213: 1732989994989361497
+    second: Ball sprite_10
+  - first:
+      213: -1723644470171743819
+    second: Ball sprite_11
+  - first:
+      213: 1092080113618655270
+    second: Ball sprite_12
+  - first:
+      213: -1027679990845140822
+    second: Ball sprite_13
+  - first:
+      213: 955404308422322083
+    second: Ball sprite_14
+  - first:
+      213: 9015906125413175631
+    second: Ball sprite_15
+  - first:
+      213: 1788334449900842089
+    second: Ball sprite_16
+  - first:
+      213: 2568431352693039398
+    second: Ball sprite_17
+  - first:
+      213: 4404062083654844286
+    second: Ball sprite_18
+  - first:
+      213: 5742372207140861055
+    second: Ball sprite_19
+  - first:
+      213: -1166665199230833053
+    second: Ball sprite_20
+  - first:
+      213: 247076025753858363
+    second: Ball sprite_21
+  - first:
+      213: 2839053361096958952
+    second: Ball sprite_22
+  - first:
+      213: 5794721900479612180
+    second: Ball sprite_23
+  - first:
+      213: -1490450187710039234
+    second: Ball sprite_24
+  - first:
+      213: -7988064389942314090
+    second: Ball sprite_25
+  - first:
+      213: 6722754660766207520
+    second: Ball sprite_26
+  - first:
+      213: 1955795496785596066
+    second: Ball sprite_27
+  - first:
+      213: -4956435294170183038
+    second: Ball sprite_28
+  - first:
+      213: 3493454130469337221
+    second: Ball sprite_29
+  - first:
+      213: -6644417169597219271
+    second: Ball sprite_30
+  - first:
+      213: 348463645406121206
+    second: Ball sprite_31
+  - first:
+      213: 4505066432965222238
+    second: Ball sprite_32
+  - first:
+      213: 5020993113778526403
+    second: Ball sprite_33
+  - first:
+      213: -9156711310835181655
+    second: Ball sprite_34
+  - first:
+      213: 8268185784426446970
+    second: Ball sprite_35
+  - first:
+      213: -2206697665839436539
+    second: Ball sprite_36
+  - first:
+      213: 7940037794932849995
+    second: Ball sprite_37
+  - first:
+      213: 6714066771835197944
+    second: Ball sprite_38
+  - first:
+      213: 904383487541326499
+    second: Ball sprite_39
+  - first:
+      213: -1745137438628474759
+    second: Ball sprite_40
+  - first:
+      213: 1703149697453635519
+    second: Ball sprite_41
+  - first:
+      213: -7706964593612182012
+    second: Ball sprite_42
+  - first:
+      213: -7876441526035266622
+    second: Ball sprite_43
+  - first:
+      213: 8536161482214371791
+    second: Ball sprite_44
+  - first:
+      213: 231863634636939605
+    second: Ball sprite_45
+  - first:
+      213: -3596922580600734938
+    second: Ball sprite_46
+  - first:
+      213: 1399341601336859007
+    second: Ball sprite_47
+  - first:
+      213: 422666009542628651
+    second: Ball sprite_48
+  - first:
+      213: -5277645519071466915
+    second: Ball sprite_49
+  - first:
+      213: -8080995568292074358
+    second: Ball sprite_50
+  - first:
+      213: 3131641200177202887
+    second: Ball sprite_51
+  - first:
+      213: 4024376367898063102
+    second: Ball sprite_52
+  - first:
+      213: 6661893787637762960
+    second: Ball sprite_53
+  - first:
+      213: 8124692520032431077
+    second: Ball sprite_54
+  - first:
+      213: 4385177210621786634
+    second: Ball sprite_55
+  - first:
+      213: -2152700799165871211
+    second: Ball sprite_56
+  - first:
+      213: -3006186623396241594
+    second: Ball sprite_57
+  - first:
+      213: 5017364407366690037
+    second: Ball sprite_58
+  - first:
+      213: 959226505685475613
+    second: Ball sprite_59
+  - first:
+      213: 455616243691726143
+    second: Ball sprite_60
+  - first:
+      213: -5310850359948257885
+    second: Ball sprite_61
+  - first:
+      213: -5176153059298222819
+    second: Ball sprite_62
+  - first:
+      213: 5241421568188975130
+    second: Ball sprite_63
+  - first:
+      213: 8462198090624015385
+    second: Ball sprite_64
+  - first:
+      213: -5106528505150339620
+    second: Ball sprite_65
+  - first:
+      213: 197534961478897368
+    second: Ball sprite_66
+  - first:
+      213: -3752180903323163177
+    second: Ball sprite_67
+  - first:
+      213: 1252864328182388917
+    second: Ball sprite_68
+  - first:
+      213: -1318258629231542713
+    second: Ball sprite_69
+  - first:
+      213: -5268955322697336712
+    second: Ball sprite_70
+  - first:
+      213: -6041297742295587803
+    second: Ball sprite_71
+  - first:
+      213: -6319360275200688468
+    second: Ball sprite_72
+  - first:
+      213: 2327455248062703979
+    second: Ball sprite_73
+  - first:
+      213: 1978130600501329696
+    second: Ball sprite_74
+  - first:
+      213: -6732450796900782865
+    second: Ball sprite_75
+  - first:
+      213: -8591885832032060533
+    second: Ball sprite_76
+  - first:
+      213: 1580336859073035489
+    second: Ball sprite_77
+  - first:
+      213: 5264518376690857426
+    second: Ball sprite_78
+  - first:
+      213: 490385469613504415
+    second: Ball sprite_79
+  - first:
+      213: -2572358677054805099
+    second: Ball sprite_80
+  - first:
+      213: -7361050313688948058
+    second: Ball sprite_81
+  - first:
+      213: 3545106781316778862
+    second: Ball sprite_82
+  - first:
+      213: 3561079224036349605
+    second: Ball sprite_83
+  - first:
+      213: -7647177511969250457
+    second: Ball sprite_84
+  - first:
+      213: 8505267346506211697
+    second: Ball sprite_85
+  - first:
+      213: -4577166143099473001
+    second: Ball sprite_86
+  - first:
+      213: 5701872541533357773
+    second: Ball sprite_87
+  - first:
+      213: 8767294979439953698
+    second: Ball sprite_88
+  - first:
+      213: -5981543306386785000
+    second: Ball sprite_89
+  - first:
+      213: -4790932920753623292
+    second: Ball sprite_90
+  - first:
+      213: -2072275248463627980
+    second: Ball sprite_91
+  - first:
+      213: -5183872485961357533
+    second: Ball sprite_92
+  - first:
+      213: 4124117764839531719
+    second: Ball sprite_93
+  - first:
+      213: 7906273610304444506
+    second: Ball sprite_94
+  - first:
+      213: 8578030484606480326
+    second: Ball sprite_95
+  - first:
+      213: -8762236312783672052
+    second: Ball sprite_96
+  - first:
+      213: -3573023441162846850
+    second: Ball sprite_97
+  - first:
+      213: -8846702727343660586
+    second: Ball sprite_98
+  - first:
+      213: 3177565829671814919
+    second: Ball sprite_99
+  - first:
+      213: -3472221205124596342
+    second: Ball sprite_100
+  - first:
+      213: 945725816260454336
+    second: Ball sprite_101
+  - first:
+      213: 3943283162217631385
+    second: Ball sprite_102
+  - first:
+      213: 6338459918552651314
+    second: Ball sprite_103
+  - first:
+      213: 4912512610944270251
+    second: Ball sprite_104
+  - first:
+      213: -3782801449835900152
+    second: Ball sprite_105
+  - first:
+      213: -7542696725442188994
+    second: Ball sprite_106
+  - first:
+      213: -4632120819910641997
+    second: Ball sprite_107
+  - first:
+      213: -3933906014613339045
+    second: Ball sprite_108
+  - first:
+      213: -8253250254639911427
+    second: Ball sprite_109
+  - first:
+      213: 3013234679044031645
+    second: Ball sprite_110
+  - first:
+      213: -2717506226520615917
+    second: Ball sprite_111
+  - first:
+      213: 8510481093873883408
+    second: Ball sprite_112
+  - first:
+      213: 8863897474013021244
+    second: Ball sprite_113
+  - first:
+      213: 3532939190581488733
+    second: Ball sprite_114
+  - first:
+      213: 6580765055051885926
+    second: Ball sprite_115
+  - first:
+      213: 5538654597584222439
+    second: Ball sprite_116
+  - first:
+      213: 1415293654436973574
+    second: Ball sprite_117
+  - first:
+      213: 4827544206862233071
+    second: Ball sprite_118
+  - first:
+      213: -6391069829440224418
+    second: Ball sprite_119
+  - first:
+      213: -8141123030819369722
+    second: Ball sprite_120
+  - first:
+      213: -595859620810434594
+    second: Ball sprite_121
+  - first:
+      213: 8403170145342194928
+    second: Ball sprite_122
+  - first:
+      213: 3067148665891611314
+    second: Ball sprite_123
+  - first:
+      213: -9187423522282531875
+    second: Ball sprite_124
+  - first:
+      213: 6429042009437615522
+    second: Ball sprite_125
+  - first:
+      213: 5397301205319753706
+    second: Ball sprite_126
+  - first:
+      213: 5000955660204125018
+    second: Ball sprite_127
+  - first:
+      213: -3753647313250798519
+    second: Ball sprite_128
+  - first:
+      213: -3901528356893352088
+    second: Ball sprite_129
+  - first:
+      213: -7505652224153779767
+    second: Ball sprite_130
+  - first:
+      213: 8675530759277511919
+    second: Ball sprite_131
+  - first:
+      213: -3030649261148751371
+    second: Ball sprite_132
+  - first:
+      213: 3762036138665996303
+    second: Ball sprite_133
+  - first:
+      213: 8115333735862406390
+    second: Ball sprite_134
+  - first:
+      213: -4212480451963328833
+    second: Ball sprite_135
+  - first:
+      213: -5136108390668538182
+    second: Ball sprite_136
+  - first:
+      213: 314073134469216040
+    second: Ball sprite_137
+  - first:
+      213: -6584930288289452139
+    second: Ball sprite_138
+  - first:
+      213: -988431373354628813
+    second: Ball sprite_139
+  - first:
+      213: -6306984687689851516
+    second: Ball sprite_140
+  - first:
+      213: -5671805975855900864
+    second: Ball sprite_141
+  - first:
+      213: -9068333082228760426
+    second: Ball sprite_142
+  - first:
+      213: -4026231269743994445
+    second: Ball sprite_143
+  - first:
+      213: 1967067394709450988
+    second: Ball sprite_144
+  - first:
+      213: -5138636802866194756
+    second: Ball sprite_145
+  - first:
+      213: 105624396839017079
+    second: Ball sprite_146
+  - first:
+      213: 4855798925943792096
+    second: Ball sprite_147
+  - first:
+      213: 6417204570808219917
+    second: Ball sprite_148
+  - first:
+      213: -5882502863622090626
+    second: Ball sprite_149
+  - first:
+      213: -156827939883036918
+    second: Ball sprite_150
+  - first:
+      213: -6943058950459028614
+    second: Ball sprite_151
+  - first:
+      213: -782585978354667884
+    second: Ball sprite_152
+  - first:
+      213: 525919582274318149
+    second: Ball sprite_153
+  - first:
+      213: 2989356905045319545
+    second: Ball sprite_154
+  - first:
+      213: -2059288373139333314
+    second: Ball sprite_155
+  - first:
+      213: -1412392611185696549
+    second: Ball sprite_156
+  - first:
+      213: 4565614687608379701
+    second: Ball sprite_157
+  - first:
+      213: 5693149562029807782
+    second: Ball sprite_158
+  - first:
+      213: -6783919396988796163
+    second: Ball sprite_159
+  - first:
+      213: 5661443196234492141
+    second: Ball sprite_160
+  - first:
+      213: -7371426578515616471
+    second: Ball sprite_161
+  - first:
+      213: -1528984969814454073
+    second: Ball sprite_162
+  - first:
+      213: -5160838946178615771
+    second: Ball sprite_163
+  - first:
+      213: 6752739697394169872
+    second: Ball sprite_164
+  - first:
+      213: 1236018118782612460
+    second: Ball sprite_165
+  - first:
+      213: -2425665245298521326
+    second: Ball sprite_166
+  - first:
+      213: 4773158998232616125
+    second: Ball sprite_167
+  - first:
+      213: -3150733938964098281
+    second: Ball sprite_168
+  - first:
+      213: 2629383867162442848
+    second: Ball sprite_169
+  - first:
+      213: 5727872886022720035
+    second: Ball sprite_170
+  - first:
+      213: -4908996333561459058
+    second: Ball sprite_171
+  - first:
+      213: -2502281285852961180
+    second: Ball sprite_172
+  - first:
+      213: -7016307649394730777
+    second: Ball sprite_173
+  - first:
+      213: -1172736755801903374
+    second: Ball sprite_174
+  - first:
+      213: 6049242009080326568
+    second: Ball sprite_175
+  - first:
+      213: -1479686541550189420
+    second: Ball sprite_176
+  - first:
+      213: -266830673078762045
+    second: Ball sprite_177
+  - first:
+      213: 2547150621900115140
+    second: Ball sprite_178
+  - first:
+      213: -659354112739181692
+    second: Ball sprite_179
+  - first:
+      213: -4156293821470945293
+    second: Ball sprite_180
+  - first:
+      213: -4077421196270988364
+    second: Ball sprite_181
+  - first:
+      213: 892410107773586077
+    second: Ball sprite_182
+  - first:
+      213: 6343608538229412542
+    second: Ball sprite_183
+  - first:
+      213: 7472410056905954350
+    second: Ball sprite_184
+  - first:
+      213: -5820743008423411898
+    second: Ball sprite_185
+  - first:
+      213: 3716343762156061043
+    second: Ball sprite_186
+  - first:
+      213: 1970284048043930632
+    second: Ball sprite_187
+  - first:
+      213: 984690799697766179
+    second: Ball sprite_188
+  - first:
+      213: 7058272537176298263
+    second: Ball sprite_189
+  - first:
+      213: -3714587870628080100
+    second: Ball sprite_190
+  - first:
+      213: 5805513856240946079
+    second: Ball sprite_191
+  - first:
+      213: -1144730132741116988
+    second: Ball sprite_192
+  - first:
+      213: -3397375598935739904
+    second: Ball sprite_193
+  - first:
+      213: 6012955939219289155
+    second: Ball sprite_194
+  - first:
+      213: -4010999847266142691
+    second: Ball sprite_195
+  - first:
+      213: 2596020379642451605
+    second: Ball sprite_196
+  - first:
+      213: -8504468900283279760
+    second: Ball sprite_197
+  - first:
+      213: -5061107095542525867
+    second: Ball sprite_198
+  - first:
+      213: 1372670857114108595
+    second: Ball sprite_199
+  - first:
+      213: -3184122436632185497
+    second: Ball sprite_200
+  - first:
+      213: -7693474425037863745
+    second: Ball sprite_201
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ball sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee8f321b19c6880800000000000000
+      internalID: -8616351797067845918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 820
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff08b1f4bf160b10800000000000000
+      internalID: 1947278750894264319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 820
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6bd232817b572a0800000000000000
+      internalID: -6740279952992782682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 820
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddf5f3e468c86950800000000000000
+      internalID: 6442619602600328663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012b94c5f6efc0760800000000000000
+      internalID: 7425589639870263824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 570
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20208333690514a90800000000000000
+      internalID: -7331490112347831806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 570
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8639928686f5520800000000000000
+      internalID: 2692985898774259887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_7
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 570
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f1a5ade5d04960800000000000000
+      internalID: 7584296989154735349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c8768c8e21f7d20800000000000000
+      internalID: 3278359844752952366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df5a9417c4b44c0800000000000000
+      internalID: -4302260969571746455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95995aaf731dc0810800000000000000
+      internalID: 1732989994989361497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c8549c726418e0800000000000000
+      internalID: -1723644470171743819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6281286c319d72f00800000000000000
+      internalID: 1092080113618655270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 70
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa016e24e72fcb1f0800000000000000
+      internalID: -1027679990845140822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 70
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e3641827424d00800000000000000
+      internalID: 955404308422322083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ball sprite_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 70
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41558d4adeee1d70800000000000000
+      internalID: 9015906125413175631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
