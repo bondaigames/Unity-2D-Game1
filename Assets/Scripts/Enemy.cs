@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("detect object" + other.gameObject.tag);
+        //Debug.Log("detect object" + other.gameObject.tag);
         if (other.gameObject.tag.Equals("Player")){
             // StartCoroutine(LoadSceneAfterDelay(3f));
             Time.timeScale = 0f;
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     private IEnumerator LoadSceneAfterDelay(float delay) 
     {
         yield return new WaitForSeconds(delay);
-        Debug.Log("died");
+        //Debug.Log("died");
         SceneManager.LoadScene(0);
     }
 }

@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class BarCollection : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         Debug.Log("Bar collection");
         Destroy(other.gameObject);
     }
+
 }
