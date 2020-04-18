@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [SerializeField]
 public class Player : MonoBehaviour
 {
     public float jumpForce = 10f;
     private Rigidbody2D rigidbody2D;
+    public GameObject deathVFX;
+    public float durationOfExplosion;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,16 +25,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    public bool IsPlayerMoving()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (transform.hasChanged)
+        Debug.Log("test: " + collision.gameObject.tag);
+        if (collision.gameObject.CompareTag("Bar"))
         {
-            return true;
+            //FindObjectOfType<SceneLoader>().LoadMainScene(durationOfExplosion);
+            ////Time.timeScale = 0f;
+            //Destroy(gameObject);
+            //GameObject explosion = Instantiate(deathVFX, gameObject.transform.position, gameObject.transform.rotation);
+            //Destroy(explosion, durationOfExplosion);   
         }
-        return false;
-    }
-
-    private void FixedUpdate() {
-        
     }
 }

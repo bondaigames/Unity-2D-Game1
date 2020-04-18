@@ -408,6 +408,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278996586}
   m_CullTransparentMesh: 0
+--- !u!1 &416007723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416007725}
+  - component: {fileID: 416007724}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &416007724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416007723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8315a20a95ecb4d908ef121636667372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &416007725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416007723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -56.96717, y: -6.1016874, z: -19.665716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &539434491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -535,6 +578,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 7886148028107529342, guid: 52fe0cd5d0e784912a5b21f49efb7268,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7886148028107529342, guid: 52fe0cd5d0e784912a5b21f49efb7268,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7886148028107529343, guid: 52fe0cd5d0e784912a5b21f49efb7268,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -572,7 +625,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2398923250119870701, guid: 65b3a46bc3b1e4aa29cd00c93a2ea2b1,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8238957183427269514, guid: 52fe0cd5d0e784912a5b21f49efb7268, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 52fe0cd5d0e784912a5b21f49efb7268, type: 3}
 --- !u!4 &539434492 stripped
 Transform:

@@ -9,43 +9,72 @@ public class BarGenerator : MonoBehaviour
     public float minSpaceBetweenBox;
     public float maxSpaceBetweenBox;
 
-    private float boxStartingPoint = -3f; 
     private float unitHaftScreen = 6f;
+    private GameObject[] bars;
+
+    private Camera cam;
 
     private void Start() {
         Debug.Log("Starting: " + boxSpeed.Count);
-        BarGen();
-    }
-    private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Generator: " + other.gameObject.name);
-        BarGen();
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        InitializedBar(8);
     }
 
-    private void BarGen() {
-        // Vector3 currentPos = transform.position;
-        bool isValid = true;
-        do {
-            float spaceBox = Random.Range(minSpaceBetweenBox, maxSpaceBetweenBox);
-            int boxSpeedIndex = Random.Range(0, boxSpeed.Count);
-            Debug.Log("Box speed index: " + boxSpeedIndex + " count: " + boxSpeed.Count);
-            boxStartingPoint += spaceBox;
-            Debug.Log("boxStartingPoint: " + boxStartingPoint);
-            GameObject obj = boxSpeed[boxSpeedIndex];
-            // Debug.Log("gameobject name: " + obj.GetComponentsInChildren<GameObject>().Length);
-            // MeshRenderer currentMesh = obj.GetComponentInChildren<GameObject>().GetComponent<MeshRenderer>();
-            // int randomColorIndex = Random.Range(0, colorData.colors.Length);
-            // Debug.Log("random color index :" + colorData.colors.Length);
-            // currentMesh.material = colorData.colors[randomColorIndex];
-            Vector3 boxPos = new Vector3(transform.position.x, boxStartingPoint);
-            Instantiate(obj, boxPos, Quaternion.identity);
-            if (boxPos.y > transform.position.y) 
+    private void Update()
+    {
+        RecreatedBar();
+    }
+
+    private void InitializedBar(int numberOfBars)
+    {
+        Debug.Log("init:  " + cam.transform.position.y);
+        bars = new GameObject[numberOfBars];
+        float posY = cam.transform.position.y;
+        for (int i = 0; i < numberOfBars; i++)
+        {
+            float spaceBox = GetRandomSpaceBox();
+            GameObject obj = GetRandomObject();
+            posY += spaceBox;
+            //Debug.Log("cam: " + cam.transform.position.y + "posY:  " + posY + " space box: " + spaceBox);
+            Vector3 boxPos = new Vector3(transform.position.x, posY);
+            bars[i] = Instantiate(obj, boxPos, Quaternion.identity);
+        }
+    }
+
+    private GameObject GetRandomObject()
+    {
+        int boxSpeedIndex = Random.Range(0, boxSpeed.Count);
+        return boxSpeed[boxSpeedIndex];
+    }
+
+    private float GetRandomSpaceBox()
+    {
+        float spaceBox = Random.Range(minSpaceBetweenBox, maxSpaceBetweenBox);
+        return spaceBox;
+    }
+
+    private void RecreatedBar()
+    {
+        float fullScreenSize = unitHaftScreen * 2;
+        for (int i = 0; i < bars.Length; i++)
+        {
+            GameObject bar = bars[i];
+            //calculated from center to bar
+            float bottomPosY = cam.transform.position.y - fullScreenSize;
+            if (bar.transform.position.y < bottomPosY)
             {
-                Debug.Log("boxPos: " + boxPos);
-                isValid = false;
+                //Debug.Log("bar pos: " + bar.transform.position + " bar: " + bar.gameObject.name + " pos Y:" + bottomPosY);
+                Destroy(bar);
+                //Recreated bar on top
+                float spaceBox = GetRandomSpaceBox();
+                GameObject obj = GetRandomObject();
+
+                //Debug.Log("first bar pos: " + i + " top object pos: " + (bars.Length - i - 1));
+                int previousIndex = i - 1 < 0 ? bars.Length - 1 : i - 1;
+                GameObject topObject = bars[previousIndex];
+                Vector3 boxPos = new Vector3(transform.position.x, topObject.transform.position.y + spaceBox);
+                bars[i] = Instantiate(obj, boxPos, Quaternion.identity);
             }
-                
-        } while(isValid);
-        //Updated bar top position
-        transform.position = new Vector3(transform.position.x, transform.position.y + unitHaftScreen, transform.position.z);
+        }
     }
 }
