@@ -37,7 +37,10 @@ public class BarGenerator : MonoBehaviour
             posY += spaceBox;
             //Debug.Log("cam: " + cam.transform.position.y + "posY:  " + posY + " space box: " + spaceBox);
             Vector3 boxPos = new Vector3(transform.position.x, posY);
-            bars[i] = Instantiate(obj, boxPos, Quaternion.identity);
+            GameObject gamePlay = GameObject.FindWithTag("GamePlay");
+            GameObject newBar = Instantiate(obj, boxPos, Quaternion.identity);
+            newBar.transform.parent = gamePlay.transform;
+            bars[i] = newBar;
         }
     }
 
@@ -73,7 +76,14 @@ public class BarGenerator : MonoBehaviour
                 int previousIndex = i - 1 < 0 ? bars.Length - 1 : i - 1;
                 GameObject topObject = bars[previousIndex];
                 Vector3 boxPos = new Vector3(transform.position.x, topObject.transform.position.y + spaceBox);
-                bars[i] = Instantiate(obj, boxPos, Quaternion.identity);
+
+                GameObject gamePlay = GameObject.FindWithTag("GamePlay");
+                GameObject newBar = Instantiate(obj, boxPos, Quaternion.identity);
+                newBar.transform.parent = gamePlay.transform;
+                bars[i] = newBar;
+
+
+                //bars[i] = Instantiate(obj, boxPos, Quaternion.identity);
             }
         }
     }

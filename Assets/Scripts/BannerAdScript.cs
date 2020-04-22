@@ -4,16 +4,16 @@ using UnityEngine.Advertisements;
 
 public class BannerAdScript : MonoBehaviour
 {
-    #if UNITY_IOS
-    private string gameId = "3549128";
-    #elif UNITY_ANDROID
-    private string gameId = "3549129";
-    #else
+#if UNITY_IOS
+    private string gameId = "3562508";
+#elif UNITY_ANDROID
+    private string gameId = "3562509";
+#else
     private string gameId = "1234567";
-    #endif
+#endif
 
     public string placementId = "banner";
-    public bool testMode = true;
+    public bool testMode = false;
 
     // Start is called before the first frame update
     void Start()

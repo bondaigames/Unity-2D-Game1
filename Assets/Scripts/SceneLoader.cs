@@ -5,7 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadMainScene(float delayInSeconds)
+    public void LoadGamePlayScene(float delayInSeconds)
+    {
+        StartCoroutine(WaitAndLoadScene(delayInSeconds, 1));
+
+        FindObjectOfType<GameSession>().ResetGame();
+    }
+
+    public void LoadMenuScene(float delayInSeconds)
     {
         StartCoroutine(WaitAndLoadScene(delayInSeconds, 0));
     }
@@ -15,6 +22,4 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene(sceneNumber);
     }
-
-
 }

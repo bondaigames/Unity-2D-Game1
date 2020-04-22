@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         Debug.Log("test: " + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Bar"))
         {
-            FindObjectOfType<SceneLoader>().LoadMainScene(durationOfExplosion);
+            FindObjectOfType<SceneLoader>().LoadMenuScene(durationOfExplosion);
             Destroy(gameObject);
             GameObject explosion = Instantiate(deathVFX, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(explosion, durationOfExplosion);
