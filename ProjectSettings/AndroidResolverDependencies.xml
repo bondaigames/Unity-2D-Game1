@@ -2,6 +2,7 @@
   <packages>
     <package>com.android.support:exifinterface:27.1+</package>
     <package>com.android.support:support-v4:27.1+</package>
+    <package>com.google.games:gpgs-plugin-support:0.10.09</package>
   </packages>
   <files>
     <file>Assets/Plugins/Android/androidx.annotation.annotation-1.0.0.jar</file>
@@ -34,6 +35,16 @@
     <file>Assets/Plugins/Android/androidx.swiperefreshlayout.swiperefreshlayout-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.0.0.aar</file>
     <file>Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-18.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-base-17.1.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.1.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-drive-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-games-19.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-nearby-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.0.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.10.09.aar</file>
   </files>
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
