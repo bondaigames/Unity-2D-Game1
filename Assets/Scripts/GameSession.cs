@@ -52,7 +52,7 @@ public class GameSession : MonoBehaviour
         {
             Debug.Log("saving high score: " + score);
             PlayerPrefs.SetInt(HIGH_SCORE, score);
-            //FindObjectOfType<PlayGameServices>().AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, score);
+            FindObjectOfType<LeaderboardManager>().AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, score);
         }
     }
 
@@ -81,8 +81,7 @@ public class GameSession : MonoBehaviour
 
     public void ShowLeaderboards()
     {
-        Debug.Log("hello world");
-        FindObjectOfType<PlayGameServices>().ShowLeaderboards();
+        FindObjectOfType<LeaderboardManager>().ShowLeaderboards();
     }
 
 }

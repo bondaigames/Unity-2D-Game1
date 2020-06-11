@@ -1,15 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
-using UnityEngine.SocialPlatforms;
 
-public class PlayGameServices : MonoBehaviour
+public class LeaderboardManager : MonoBehaviour
 {
-    public Text debugText;
-    //public Text signInButtonText;
     private void Awake()
     {
         SetupSingleton();
@@ -38,7 +33,7 @@ public class PlayGameServices : MonoBehaviour
 
     private void SetupSingleton()
     {
-        int numberOfGameServices = FindObjectsOfType<PlayGameServices>().Length;
+        int numberOfGameServices = FindObjectsOfType<LeaderboardManager>().Length;
         if (numberOfGameServices > 1)
         {
             Destroy(gameObject);
@@ -118,9 +113,9 @@ public class PlayGameServices : MonoBehaviour
 
     public void ShowLeaderboards()
     {
-        
+
         // show leaderboard UI
-        
+
         if (Social.localUser.authenticated)
         {
             Social.ShowLeaderboardUI();
@@ -141,5 +136,4 @@ public class PlayGameServices : MonoBehaviour
     }
 
     #endregion
-
 }
