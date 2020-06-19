@@ -13,22 +13,26 @@ public class LeaderboardManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Create client configuration
+
+
+#if UNITY_ANDROID
+        //// Create client configuration
         PlayGamesClientConfiguration config = new
             PlayGamesClientConfiguration.Builder()
             .Build();
 
         // Initialize and activate the platform
         PlayGamesPlatform.InitializeInstance(config);
-
         // Enable debugging output (recommended)
-        PlayGamesPlatform.DebugLogEnabled = true;
-
+        PlayGamesPlatform.DebugLogEnabled = false;
         PlayGamesPlatform.Activate();
         // END THE CODE TO PASTE INTO START
-
         // Try silent sign-in (second parameter is isSilent)
         PlayGamesPlatform.Instance.Authenticate(SignInCallback, false);
+#endif
+
+
+
     }
 
     private void SetupSingleton()
@@ -70,11 +74,22 @@ public class LeaderboardManager : MonoBehaviour
 
     public void SignIn()
     {
-        // authenticate user:
-        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) => {
-            // handle results
-            //signInButtonText.text = result.ToString();
+        Social.localUser.Authenticate((bool success) =>
+        {
+            if (success)
+            {
+                Debug.Log("Login Sucess");
+            }
+            else
+            {
+                Debug.Log("Login failed");
+            }
         });
+        // authenticate user:
+        //PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) => {
+        //    // handle results
+        //    //signInButtonText.text = result.ToString();
+        //});
 
 
         //if (!PlayGamesPlatform.Instance.localUser.authenticated)

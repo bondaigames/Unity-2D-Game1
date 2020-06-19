@@ -7,28 +7,57 @@ using UnityEngine;
 public class SaveSystem
 {
     private static string FILE_NAME = "/player.dat";
-    public static void SavePlayer(PlayerData player)
+    private static string SHOP_ITEM_FILE_NAME = "/shop-item.dat";
+
+    public static void SaveShopItems(List<ShopItem> items)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + FILE_NAME;
+        string path = Application.persistentDataPath + SHOP_ITEM_FILE_NAME;
         FileStream stream = new FileStream(path, FileMode.Create);
         //PlayerData data = new PlayerData(player);
 
-        formatter.Serialize(stream, player);
+        formatter.Serialize(stream, items);
         stream.Close();
     }
 
-    public static PlayerData LoadPlayer()
+    public static List<ShopItem> LoadShopItems()
     {
-        string path = Application.persistentDataPath + FILE_NAME;
+        string path = Application.persistentDataPath + SHOP_ITEM_FILE_NAME;
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
+            List<ShopItem> items = formatter.Deserialize(stream) as List<ShopItem>;
             stream.Close();
-            return formatter.Deserialize(stream) as PlayerData;
+            return items;
         }
         Debug.Log("Save file not found in " + path);
         return null;
     }
+
+
+    //public static void SavePlayer(PlayerData player)
+    //{
+    //    BinaryFormatter formatter = new BinaryFormatter();
+    //    string path = Application.persistentDataPath + FILE_NAME;
+    //    FileStream stream = new FileStream(path, FileMode.Create);
+    //    //PlayerData data = new PlayerData(player);
+
+    //    formatter.Serialize(stream, player);
+    //    stream.Close();
+    //}
+
+    //public static PlayerData LoadPlayer()
+    //{
+    //    string path = Application.persistentDataPath + FILE_NAME;
+    //    if (File.Exists(path))
+    //    {
+    //        BinaryFormatter formatter = new BinaryFormatter();
+    //        FileStream stream = new FileStream(path, FileMode.Open);
+    //        stream.Close();
+    //        return formatter.Deserialize(stream) as PlayerData;
+    //    }
+    //    Debug.Log("Save file not found in " + path);
+    //    return null;
+    //}
 }

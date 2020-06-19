@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7886148027811970336}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7886148027811970339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4.66, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 7886148028585914472}
   m_Father: {fileID: 0}
@@ -46,10 +46,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 584329a48a80d4b63b443eac1cb96b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 4
+  jumpForce: 7
   deathVFX: {fileID: 8226262572687041007, guid: 45ca766721e7c4b058aba94cf7537b0b,
     type: 3}
+  deathSound: {fileID: 8300000, guid: bbd254599391449c489367f55333263a, type: 3}
+  deathSoundVolume: 0.7
   durationOfExplosion: 1
+  jumpSound: {fileID: 8300000, guid: 86503a3b483684cf6904c77d99349023, type: 3}
+  jumpSoundVolume: 0.7
 --- !u!50 &7886148027811970343
 Rigidbody2D:
   serializedVersion: 4
@@ -64,8 +68,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 1
+  m_AngularDrag: 0.5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -84,9 +88,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000074505806, y: 0}
+  m_Offset: {x: 0.0012668769, y: 0}
   serializedVersion: 2
-  m_Radius: 0.08524163
+  m_Radius: 0.111847736
 --- !u!1 &7886148028585914473
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,7 +103,7 @@ GameObject:
   - component: {fileID: 7886148028585914479}
   m_Layer: 8
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +161,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 1788334449900842089, guid: 2214416f56b5a4297a37f121c20bc6bc,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,6 +26,16 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+
+        ShopItem item = SaveSystem.LoadShopItems()?.SingleOrDefault(o => o.selected == true);
+        if (item != null)
+        {
+            Debug.Log("testing player");
+            SpriteRenderer spriteRender = transform.GetChild(0).GetComponent<SpriteRenderer>();
+            spriteRender.sprite = Resources.LoadAll<Sprite>("Sprites/Ball sprite").SingleOrDefault(o => o.name.Equals(item.itemName));
+        }
+        FindObjectOfType<GameSession>().ShowAds();
+        
     }
 
     // Update is called once per frame

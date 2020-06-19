@@ -10,13 +10,18 @@ public class RewardedAdsScript : MonoBehaviour, IUnityAdsListener
 #endif
 
     string myPlacementId = "rewardedVideo";
-    bool testMode = true;
+    bool testMode = false;
 
     // Initialize the Ads listener and service:
     void Start()
     {
         Advertisement.AddListener(this);
         Advertisement.Initialize(gameId, testMode);
+    }
+
+    private void OnDestroy()
+    {
+        Advertisement.RemoveListener(this);
     }
 
     // Implement IUnityAdsListener interface methods:

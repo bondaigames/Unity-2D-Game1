@@ -10,7 +10,7 @@ public class RandomColor : MonoBehaviour
     void Start()
     {
         int randomColorIndex = Random.Range(0, colorData.colors.Length);
-        Debug.Log("random color index :" + randomColorIndex);
+        //Debug.Log("random color index :" + randomColorIndex);
         for (int i = 0; i < meshRenderer.Length; i++)
         {
             MeshRenderer currentMesh = meshRenderer[i];

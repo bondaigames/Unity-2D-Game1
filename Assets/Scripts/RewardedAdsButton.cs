@@ -13,6 +13,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 
     public Button myButton;
     public string myPlacementId = "rewardedVideo";
+    public bool testMode = false;
 
     void Start()
     {
@@ -27,7 +28,12 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 
         // Initialize the Ads listener and service:
         Advertisement.AddListener(this);
-        Advertisement.Initialize(gameId, true);
+        Advertisement.Initialize(gameId, testMode);
+    }
+
+    private void OnDestroy()
+    {
+        Advertisement.RemoveListener(this);
     }
 
     // Implement a function for showing a rewarded video ad:
