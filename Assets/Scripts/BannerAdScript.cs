@@ -8,8 +8,6 @@ public class BannerAdScript : MonoBehaviour
     private string gameId = "3562508";
 #elif UNITY_ANDROID
     private string gameId = "3562509";
-#else
-    private string gameId = "1234567";
 #endif
 
     public string placementId = "banner";
