@@ -10,13 +10,13 @@ public class BannerAdScript : MonoBehaviour
     private string gameId = "3562509";
 #endif
 
-    public string placementId = "banner";
-    public bool testMode = false;
+    private string placementId = "jumbobanner";
+    //public bool testMode = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        Advertisement.Initialize (gameId, testMode);
+        Advertisement.Initialize (gameId, false);
         StartCoroutine (ShowBannerWhenReady ());
     }
 

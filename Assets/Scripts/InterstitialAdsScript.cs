@@ -13,14 +13,14 @@ public class InterstitialAdsScript : MonoBehaviour
     private string gameId = "1234567";
 #endif
 
-    public string myPlacementId = "Interstitial";
-    bool testMode = false;
+    private string myPlacementId = "Interstitial";
+    //bool testMode = false;
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log("testing show ads");
         // Initialize the Ads service:
-        Advertisement.Initialize(gameId, testMode);
+        Advertisement.Initialize(gameId, false);
         // Show an ad:
         
     }

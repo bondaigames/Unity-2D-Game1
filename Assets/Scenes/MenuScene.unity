@@ -4378,7 +4378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_shareMessage: Check out this awesome game!
-  m_shareURL: https://www.youtube.com/watch?v=6ik8pK1GGh4
+  m_shareURL: https://youtu.be/pZFK_oUroow
   m_excludedOptions: 
 --- !u!1 &1995498830
 GameObject:
