@@ -40,10 +40,12 @@ public class ShopItemView : MonoBehaviour
 
         if (this.item.isBuy)
         {
+            transform.GetChild(0).GetComponent<Button>().enabled = true;
             iconImage.sprite = Resources.LoadAll<Sprite>("Sprites/Ball sprite").SingleOrDefault(o => o.name.Equals(item.itemName));
         }
         else
         {
+            transform.GetChild(0).GetComponent<Button>().enabled = false;
             iconImage.sprite = Resources.Load<Sprite>("Images/lock-icon");
         }
 
