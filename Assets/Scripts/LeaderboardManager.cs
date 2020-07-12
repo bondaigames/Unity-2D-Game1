@@ -121,10 +121,15 @@ public class LeaderboardManager : MonoBehaviour
         });
     }
 
-    public void addAAAA()
-    {
-        AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, 100);
-    }
+    //public void AddScore(long score)
+    //{
+    //    AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, score);
+    //}
+
+    //public void addAAAA()
+    //{
+    //    AddScoreToLeaderboard(GPGSIds.leaderboard_high_score, 100);
+    //}
 
     public void ShowLeaderboards()
     {

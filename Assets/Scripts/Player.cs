@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -35,7 +36,6 @@ public class Player : MonoBehaviour
             spriteRender.sprite = Resources.LoadAll<Sprite>("Sprites/Ball sprite").SingleOrDefault(o => o.name.Equals(item.itemName));
         }
         FindObjectOfType<GameSession>().ShowAds();
-        
     }
 
     // Update is called once per frame
